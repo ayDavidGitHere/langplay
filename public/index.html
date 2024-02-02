@@ -1,0 +1,59 @@
+<html>
+	<title>LANG PLAY</title>
+	<head>
+
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+		<link rel="manifest" href="/favicon_io/site.webmanifest">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+
+		<link href="./index.css" rel="stylesheet" />
+		<script src="./language.js"></script>
+		<script src="./Item.js"></script> 
+		<script src="./SpeechManager.js"></script> 
+		<script src="./index.js"></script>
+	</head>
+	<body color-mode="dark">
+		<div class="nav-cnt">
+			<div class="nav-item nav-playback-box" box-for="box-play" active>
+				<p ><i class="fas fa-play"></i></p>
+			</div>
+			<div class="nav-item nav-preferences" box-for="box-preferences">
+				<p ><i class="fas fa-gears"></i> Preferences</p>
+			</div>
+			<div class="nav-item nav-hiw" box-for="box-hiw">
+				<p ><i class="fas fa-info"></i> How it Works</p>
+			</div>
+		</div>
+		<div class="box-container">
+			<div class="box playback-box"  box-id="box-play" active>
+
+			</div>
+			<div class="box preferences-box"  box-id="box-preferences">
+				
+			</div>
+			<div class="box hiw-box"  box-id="box-hiw">
+				<p >This app produces and speak random sentences infinitely.
+				</p>
+				<p>
+				The default source language is <highlight>English</highlight>!
+				</p>
+				<p>
+				The default target language is <highlight>Russian</highlight>!
+				</p>
+				<p>
+				You can change that in the <highlight>preference box.<highlight>
+				</p>
+
+				<tagline>
+				A lazy way to learn languages.  
+				</tagline>
+			</div>
+		</div>
+	</body>
+</html>
